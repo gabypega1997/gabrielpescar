@@ -1,0 +1,22 @@
+.main{
+    display:flex;
+    justify-content: center;
+    margin-top: 12vh;
+    font-size: 2rem;
+    padding: 0px;
+    height: 8vh;
+    background : #fff ;
+    text-shadow: 7px 6px 7px rgba(20, 20, 20, 0.15);
+    color:#059F2f;
+}
+.aboutMe{
+    margin-top:0px;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.downArrows{
+    font-size: 2.8rem;
+   
+    
+ }
+ 

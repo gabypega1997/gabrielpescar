@@ -1,0 +1,51 @@
+.main{
+    width: 30.1vw;
+    height: 60vh;
+    position: relative;
+    left: 20vw;
+    top:10vh; 
+}
+.form{
+    height: 100%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color:#91eca9;
+}
+
+.form>input{
+    margin-top: 10vh;
+    margin-left: 3.9vw;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.5rem;
+    width: 20vw;
+  
+}
+
+.emailInput{
+    position: relative;
+    left:0.57vw
+}
+
+.message{
+    position: relative;
+    top:-13vh;
+    
+}
+.messageInput{
+    margin-top:10vh ;
+    margin-left: 1vw;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.submit{
+     position:relative;
+     left: 40vw;
+     transform: rotate(45deg);
+     font-size: 5rem;
+     background-color: #3D8F54;
+     border: none;
+     color:#91eca9;
+}

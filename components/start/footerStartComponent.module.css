@@ -1,0 +1,80 @@
+.main{
+   display:flex;
+   justify-content: center;
+   height: 20vh;
+   background : linear-gradient(#f6f6f6, #aaaaaa) ;
+   animation-name: gradientAnimation;
+   animation-duration: 1.5s;
+   animation-delay: 2.5s;
+   animation-fill-mode: both;
+   position: relative;
+   opacity: 0;
+   text-shadow: 7px 6px 7px rgba(20, 20, 20, 0.15);
+}
+
+/* @keyframes gradientAnimation{
+   0%{background: linear-gradient(#f6f6f6, #afaeae);}
+   25%{background: linear-gradient(#f6f6f6, #9b9b9b)}
+   50%{background: linear-gradient(#f6f6f6, #727272);}
+   75%{background: linear-gradient(#f6f6f6, #4b4b4b)}
+   100%{background: linear-gradient(#f6f6f6, #292929);}
+}  */
+
+@keyframes gradientAnimation{
+   0%{opacity: 0;top:10vh}
+   100%{opacity: 1;top:0}
+} 
+.projects{
+   padding-top: 10vh;
+   margin: auto;
+   font-size: 3.2rem ;
+   color:#059F2f;
+}
+.myProjectsTitle{
+   animation-name: gradientAnimation;
+   animation-duration: 1.5s;
+   animation-delay: 3.2s;
+   animation-fill-mode: both;
+   position: relative;
+   font-weight: 600;
+   transition: transform 1s ease-in-out;
+   display: inline-block;
+}
+
+.downArrows{
+   font-size: 2.8rem;
+   animation-name: arrowsAnimation;
+   animation-duration: 5s;
+   animation-delay: 5s;
+   animation-fill-mode: both;
+   position: relative;
+   opacity: 0;
+   transition: transform 5s ease-in-out;
+   display: inline-block;
+}
+
+@keyframes arrowsAnimation{
+   0%{font-size:2.5rem;top: 10px;opacity:0.1 ;}
+   10%{font-size:3.2rem;top:-10px;opacity:0.2 ;}
+   20%{font-size:2.5rem;top:10px;opacity:0.4 ;}
+   30%{font-size:3.2rem;top:-10px;opacity:0.6 ;}
+   40%{font-size:2.5rem;top:10px;opacity:0.8 ;}
+   50%{font-size:3.2rem;top:-10px;opacity:1 ;}
+   60%{font-size:2.5rem;top:10px;opacity:1 ;}
+   70%{font-size:3.2rem;top: -10px;opacity:1 ;}
+   80%{font-size:2.5rem;top:10px;opacity:1 ;}
+   90%{font-size:3.2rem;top:-10px;opacity:1 ;}
+   100%{font-size:2.8rem;top:0;opacity:1 ;}
+}
+
+.downArrows:hover{
+   color:#05942b;
+
+transform:rotateY(1800deg) 
+}
+.myProjectsTitle:hover{
+   color:#12ac3bc5;
+
+   transform: scale(1.05) translateY(-10px);
+}
+

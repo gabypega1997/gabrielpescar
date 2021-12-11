@@ -1,0 +1,23 @@
+.main{
+    background:white;
+    height: 45vh;
+    width: 55vw;
+    margin: auto;
+    display: flex;
+    padding-top:5vh ;
+}
+
+.infoAbout{
+    background: rgb(255, 255, 255);
+    height: 45vh;
+    width: 30vw;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.photoAbout {
+    background: blue;
+    height: 45vh;
+    width: 25vw;
+    position: relative;
+}
