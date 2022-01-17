@@ -16,7 +16,7 @@ function Skills () {
                 <p>English</p>
             </div>
             <div className={classes.photo}>
-                <Image src="/minion.jpg" layout="fill"></Image>
+                <Image src="/minion.jpg" alt="minion"layout="fill"></Image>
             </div>
         </div>
     )

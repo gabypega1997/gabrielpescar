@@ -18,8 +18,7 @@ function GeneralAbout () {
                 <p><b>LinkedIn:</b>/in/gabriel-pescar</p>
             </div>
             <div className={classes.photoAbout}>
-                    <Image className={classes.image} src="/minion.jpg" alt="minion" width="1600" height="1200"
-                sizes="50vw" layout="fill"/>
+                    <Image className={classes.image} src="/minion.jpg" alt="minion" layout="fill"/>
             </div>
 
         </div>

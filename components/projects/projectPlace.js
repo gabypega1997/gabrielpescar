@@ -10,7 +10,7 @@ function ProjectPlace (){
         <div className={classes.main} >
             <FaAngleLeft className={classes.projectControler}/>
             <div className={classes.projectImage}>
-                <Image className={classes.image} src="/minion.jpg" alt="minion" width="1600" height="616"/>
+                <Image className={classes.image} src="/minion.jpg" alt="minion" layout='fill'/>
                 <div className={classes.projectDesc}>
                     <h1 className={classes.projectDesc_title} >Project 1</h1>
                     <h4>For this project I used vanilla Javascrit to manipulate the forms and to show differents bettwen winner and loser</h4>
