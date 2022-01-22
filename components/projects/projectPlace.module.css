@@ -1,17 +1,18 @@
 .main{
     display: flex;
-    height: 60vh;
-    width: 95vw;
+    height: 100vh;
+    width: 60vw;
     margin: auto;
     position: relative;
     top:5vh;
     padding-top: 10px;
+    
 }
 .projectImage{
     background:#2c6d3dc7;
     /* background:#059; */
-    height: 70vh;
-    width: 90vw;
+    height: 20vh;
+    width: 30vw;
     margin:auto;
     position: relative;
     top:-1vh;
@@ -31,4 +32,17 @@
 .projectDesc{
     text-align: center;
     margin:auto;
+}
+
+.container_carrousel{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hoverLink:hover{
+    color: rgb(19, 41, 28);
+}
+
+.carouselTitle{
+    
 }
