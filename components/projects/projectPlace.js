@@ -6,6 +6,10 @@ import Image from "next/image"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel'; 
 
+//Mongo Db connection:
+
+
+
 const projects =[
         {
     id : 1,
@@ -40,7 +44,7 @@ function ProjectPlace (){
     
     return (
         < div className={classes.main} >
-            <Carousel>
+            <Carousel showThumbs={false}>
                 {projects.map(project =>(
                 <div key={project}>
                     <Image
@@ -70,6 +74,4 @@ function ProjectPlace (){
         </div>
     )
 }
-
 export default ProjectPlace;
-

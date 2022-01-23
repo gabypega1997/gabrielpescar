@@ -6,13 +6,14 @@ import AboutSide from "../components/about/about"
 
 
 
+
 export default function Home() {
   return (
-   <Fragment>
-     <StartPage></StartPage>
-     <ProjectsSide></ProjectsSide>
-     <AboutSide></AboutSide>
-     <ContactSide></ContactSide>
-   </Fragment>
+    <Fragment>
+      <StartPage></StartPage>
+      <ProjectsSide></ProjectsSide>
+      <AboutSide></AboutSide>
+      <ContactSide></ContactSide>
+    </Fragment>
   )
 }
