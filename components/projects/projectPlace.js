@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import classes from "./projectPlace.module.css"
 import {FaAngleLeft,FaAngleRight} from "react-icons/fa"
 import { IoLogoJavascript,IoLogoHtml5 } from "react-icons/io";
@@ -6,8 +6,7 @@ import Image from "next/image"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel'; 
 
-//Mongo Db connection:
-
+//Firebase connection:
 
 
 const projects =[
@@ -41,7 +40,7 @@ const projects =[
 }
 ]
 function ProjectPlace (){
-    
+
     return (
         < div className={classes.main} >
             <Carousel showThumbs={false}>
