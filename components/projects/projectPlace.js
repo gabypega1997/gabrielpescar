@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect , useState} from 'react'
 import classes from "./projectPlace.module.css"
 import {FaAngleLeft,FaAngleRight} from "react-icons/fa"
 import { IoLogoJavascript,IoLogoHtml5 } from "react-icons/io";
@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel'; 
 
 //Firebase connection:
-
+import { getProjects } from '../../utils/projects';
 
 const projects =[
         {
@@ -40,11 +40,19 @@ const projects =[
 }
 ]
 function ProjectPlace (){
+    const [projectes, setProjectes] = useState([])
+    useEffect(() => {
+        getProjects().then(token => setProjectes(previousState => {   return token  }))
 
+    
+    },[]);
+    
+    
+    
     return (
         < div className={classes.main} >
             <Carousel showThumbs={false}>
-                {projects.map(project =>(
+                {projectes.map(project =>(
                 <div key={project}>
                     <Image
                         src={project.img}
@@ -54,7 +62,7 @@ function ProjectPlace (){
                         className={classes.Image}                 
                     ></Image>
                         <h2 className={classes.carouselTitle}>{project.name}</h2>
-                        <div className={classes.container_carrousel}>
+                        {/* <div className={classes.container_carrousel}>
                             <div className={classes.desc}>
                                 <p className='legende' >{project.desc}</p>
                             </div>
@@ -64,7 +72,7 @@ function ProjectPlace (){
                                 <p>{project.date}</p>
                             </div>
                         </div>                    
-                        <br/>
+                        <br/> */}
                         
                     </div>
             ))}
