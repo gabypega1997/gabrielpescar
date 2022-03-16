@@ -10,7 +10,7 @@ function GeneralAbout () {
                 <p><b>Name:</b> Pescar Mircea Gabriel</p>
                 <p><b>Age:</b> 24 years</p>
                 <p><b>Nationality:</b> Romanian</p>
-                <p><b>Address:</b> Muhlweg, nr 7 <br></br>
+                <p><b>Address:</b> Limburger nr 2 <br></br>
                     Bad Camberg 65520, Germany
                 </p>
                 <p><b>Mobil:</b>+49 15 209 285 159</p>
@@ -18,7 +18,7 @@ function GeneralAbout () {
                 <p><b>LinkedIn:</b>/in/gabriel-pescar</p>
             </div>
             <div className={classes.photoAbout}>
-                    <Image className={classes.image} src="/minion.jpg" alt="minion" layout="fill"/>
+                    <Image className={classes.image} src="/Gabi.jpg" alt="minion" layout="fill"/>
             </div>
 
         </div>

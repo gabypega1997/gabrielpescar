@@ -5,7 +5,7 @@ function ExperienceAbout () {
     return (
         <div className={classes.main}>
             <div className={classes.photo}>
-            <Image src="/minion.jpg" alt="minion" layout="fill"></Image>
+            <Image src="/Learn.jpg" alt="minion" layout="fill"></Image>
             </div>
             <div className={classes.info}>
                 <p><b>FreeCodeCamp</b></p>
