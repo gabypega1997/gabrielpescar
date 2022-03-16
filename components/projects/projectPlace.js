@@ -62,17 +62,17 @@ function ProjectPlace (){
                         className={classes.Image}                 
                     ></Image>
                         <h2 className={classes.carouselTitle}>{project.name}</h2>
-                        {/* <div className={classes.container_carrousel}>
+                        <div className={classes.container_carrousel}>
                             <div className={classes.desc}>
                                 <p className='legende' >{project.desc}</p>
                             </div>
                             <div className={classes.utilities}>
-                                <a className={classes.hoverLink} href={project.link}><b>Link: </b>{project.link}</a>
+                                <a className={classes.hoverLink} target={"_blank"} href={project.link} rel="noreferrer"><b>Link: </b>{project.link}</a>
                                 <p><b>Tehnologies: </b>{project.tehnologies}</p>
                                 <p>{project.date}</p>
                             </div>
                         </div>                    
-                        <br/> */}
+                        <br/>
                         
                     </div>
             ))}
